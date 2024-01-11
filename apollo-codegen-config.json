@@ -1,0 +1,32 @@
+{
+  "schemaName" : "AppSchema",
+  "options" : {
+    "cocoapodsCompatibleImportStatements" : false
+  },
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/schema.json"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./Unicorn/Server/Graphql/Api",
+      "moduleType" : {
+        "embeddedInTarget" : {
+            "name": "Unicorn"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
